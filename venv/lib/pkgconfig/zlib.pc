@@ -1,0 +1,13 @@
+prefix=/Users/pragatimehra/Desktop/ChatBot/venv
+exec_prefix=/Users/pragatimehra/Desktop/ChatBot/venv
+libdir=/Users/pragatimehra/Desktop/ChatBot/venv/lib
+sharedlibdir=/Users/pragatimehra/Desktop/ChatBot/venv/lib
+includedir=/Users/pragatimehra/Desktop/ChatBot/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
